@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>
+	GUESS THE COLOR
+	<br>
+	<span id="colorDisplay">RGB</span>
+	<br>
+</h1>
+
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="message"></span>
+	<button id="easyBtn">Easy</button>
+	<button id="hardBtn" class="selected">Hard</button>
+
+<button  onclick="toggleText()">Instructions</button>
+</div>
+<p id='demo' style='display: none'>Every colour on the screen can be represented using an RGB code (Red, Green, Blue) code. This code consists of three numbers between 0 and 255, indicating how much red, green and blue are used to recreate the colour. For instance the RGB code for:<br>
+
+Red is (255,0,0)<br>
+Green is (0,255,0)<br>
+Blue is (0,0,255)<br>
+Yellow is (255,255,0)<br>
+Orange is (255,165,0)<br> Using the value of RGB given above,you have to guess the right colored circle.
+</p>  
+<div class="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>
+
+<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
