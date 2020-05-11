@@ -20,6 +20,7 @@ h1 {
 	line-height: 1.5;
 	font-weight: normal;
 	color: white;
+	font-size: 1.3rem;
 	background: #ecc6d9;
 	margin: 0;
 	text-transform: uppercase;
@@ -30,7 +31,7 @@ p
 {
 	font-family:'Josefin Sans',sans-serif;
 	padding: 20px;
-	font-size:25px;
+	font-size:1rem;
 	background:#f2f2f2;
 	color:#bf4080;
 	line-height: 1.5;
